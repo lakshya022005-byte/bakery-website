@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff7f0;
+  color: #333;
+}
+
+.hero {
+  background: linear-gradient(to right, #ffb347, #ffcc33);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #25d366;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 30px 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
